@@ -26,7 +26,7 @@ def newProcessText(text):
 		if i < minimum:
 			newText+= text[i]
 		elif minimum <= i < maximum:
-			newText += text[i]+" "
+			newText += text[i]+"  "
 		else:
 			try:
 				minimum, maximum = next(items)
